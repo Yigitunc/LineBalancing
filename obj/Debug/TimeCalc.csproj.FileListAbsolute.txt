@@ -1,0 +1,227 @@
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\TimeCalc.exe.config
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\TimeCalc.exe
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\TimeCalc.pdb
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.csprojAssemblyReference.cache
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Form1.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Properties.Resources.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.WaitScreen.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.exe
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.pdb
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.LaptopAlım.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.LaptopSatım.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Laptoplar.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Grafikler.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\veritabanım.mdf
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\veritabanım_log.ldf
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\MySql.Data.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Google.Protobuf.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Zstandard.Net.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Renci.SshNet.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\System.Buffers.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\System.Memory.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\MySql.Data.xml
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.exe.config
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\MetroFramework.Design.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\MetroFramework.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Arıza.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.gelirgider.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.paraalim.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.paracikis.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.MarkaArızaOrani.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.MarkaBazındaKar.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Ortkardegisimi.resources
+C:\Users\yigit\source\repos\TimeCalc\TimeCalc\obj\Debug\TimeCalc.Maliİslemler.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\veritabanım.mdf
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\veritabanım_log.ldf
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\TimeCalc.exe.config
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\TimeCalc.exe
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\TimeCalc.pdb
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Google.Protobuf.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Zstandard.Net.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Ubiety.Dns.Core.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Renci.SshNet.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\System.Buffers.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\K4os.Compression.LZ4.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\K4os.Hash.xxHash.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\System.Memory.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\bin\Debug\MySql.Data.xml
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.csprojAssemblyReference.cache
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.exe.config
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Form1.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.gelirgider.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Grafikler.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.LaptopAlım.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Laptoplar.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.LaptopSatım.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Arıza.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Maliİslemler.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.MarkaArızaOrani.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.MarkaBazındaKar.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Ortkardegisimi.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.paraalim.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.paracikis.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.Properties.Resources.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.WaitScreen.resources
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.exe
+C:\Program Files (x86)\TimeCalc_3\TimeCalc\obj\Debug\TimeCalc.pdb
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csprojAssemblyReference.cache
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.exe.config
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Form1.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.gelirgider.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Grafikler.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.LaptopAlım.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Laptoplar.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.LaptopSatım.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Arıza.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Maliİslemler.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.MarkaArızaOrani.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.MarkaBazındaKar.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Ortkardegisimi.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.paraalim.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.paracikis.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.WaitScreen.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.exe
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.pdb
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\veritabanım.mdf
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\veritabanım_log.ldf
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.exe.config
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.exe
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.pdb
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Google.Protobuf.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Zstandard.Net.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Ubiety.Dns.Core.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Renci.SshNet.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\System.Buffers.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\K4os.Hash.xxHash.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\System.Memory.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\bin\Debug\MySql.Data.xml
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Properties.Resources.resources
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\veritabanım.mdf
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\veritabanım_log.ldf
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.exe.config
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.exe
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\TimeCalc.pdb
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\Google.Protobuf.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\Zstandard.Net.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\Renci.SshNet.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\System.Buffers.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\System.Memory.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\bin\Debug\MySql.Data.xml
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csprojAssemblyReference.cache
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.exe.config
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Form1.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.gelirgider.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Grafikler.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.LaptopAlım.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Laptoplar.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.LaptopSatım.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Arıza.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Maliİslemler.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.MarkaArızaOrani.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.MarkaBazındaKar.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Ortkardegisimi.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.paraalim.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.paracikis.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Properties.Resources.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.WaitScreen.resources
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.exe
+C:\Users\TUNC\Desktop\TimeCalc\TimeCalc_1.4\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.pdb
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\Google.Protobuf.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\Zstandard.Net.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\Renci.SshNet.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\System.Buffers.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\System.Memory.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\MySql.Data.xml
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.AssemblyReference.cache
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.DurakTanımlama.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.ProductDefinition.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.Simulation.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\HatDengelemeProject.exe.config
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\HatDengelemeProject.exe
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\bin\Debug\HatDengelemeProject.pdb
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\HatDengelemeProject.exe.config
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.MainPage.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\TimeCalc.OrderOfManufacture.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\HatDengelemeProject.Properties.Resources.resources
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\HatDengelemeProject.exe
+C:\Users\TUNC\Desktop\TimeCalc_4\TimeCalc\obj\Debug\HatDengelemeProject.pdb
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\HatDengelemeProject.exe.config
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\HatDengelemeProject.exe
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\HatDengelemeProject.pdb
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\Google.Protobuf.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\Zstandard.Net.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\Renci.SshNet.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\System.Buffers.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\System.Memory.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\bin\Debug\MySql.Data.xml
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.csproj.AssemblyReference.cache
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\HatDengelemeProject.exe.config
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.MainPage.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.Simulation.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.DurakTanımlama.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.OrderOfManufacture.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.ProductDefinition.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\HatDengelemeProject.Properties.Resources.resources
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.csproj.GenerateResource.cache
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.csproj.CoreCompileInputs.cache
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\TimeCalc.csproj.CopyComplete
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\HatDengelemeProject.exe
+C:\Users\TUNC\Desktop\lineBalancing\LineBalancing\obj\Debug\HatDengelemeProject.pdb
