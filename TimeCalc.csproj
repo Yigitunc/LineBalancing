@@ -86,6 +86,12 @@
     <Compile Include="design\MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="design\ResultOfSimulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="design\ResultOfSimulation.Designer.cs">
+      <DependentUpon>ResultOfSimulation.cs</DependentUpon>
+    </Compile>
     <Compile Include="design\Simulation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,7 @@
     </Compile>
     <Compile Include="models\ProductModel.cs" />
     <Compile Include="models\StationModel.cs" />
+    <Compile Include="operations\BaseThread.cs" />
     <Compile Include="operations\DatabaseHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,6 +132,9 @@
     </Compile>
     <EmbeddedResource Include="design\MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="design\ResultOfSimulation.resx">
+      <DependentUpon>ResultOfSimulation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="design\Simulation.resx">
       <DependentUpon>Simulation.cs</DependentUpon>

@@ -28,7 +28,6 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Simulation));
             this.backButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,10 +48,22 @@
             this.secondLabel = new System.Windows.Forms.Label();
             this.clock = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.resetButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.existingOrderCombobox = new System.Windows.Forms.ComboBox();
+            this.finishedProducts = new TimeCalc.models.DraggableGroupBox();
+            this.finishedProductsCount = new System.Windows.Forms.GroupBox();
+            this.panelCountLabel11 = new System.Windows.Forms.Label();
+            this.finishedProductsCount2 = new System.Windows.Forms.GroupBox();
+            this.panelCountLabel22 = new System.Windows.Forms.Label();
+            this.finishedPanelNames = new System.Windows.Forms.GroupBox();
+            this.panelTypeLabel11 = new System.Windows.Forms.Label();
+            this.finishedPanelCount = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.finishedPanelNames2 = new System.Windows.Forms.GroupBox();
+            this.panelTypeLabel22 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.finishedProductsLabel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.paneller.SuspendLayout();
             this.panelValue2.SuspendLayout();
@@ -60,6 +71,11 @@
             this.panelType2.SuspendLayout();
             this.panelType1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.finishedProducts.SuspendLayout();
+            this.finishedProductsCount.SuspendLayout();
+            this.finishedProductsCount2.SuspendLayout();
+            this.finishedPanelNames.SuspendLayout();
+            this.finishedPanelNames2.SuspendLayout();
             this.SuspendLayout();
             // 
             // backButton
@@ -68,7 +84,7 @@
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.backButton.ForeColor = System.Drawing.Color.Black;
-            this.backButton.Location = new System.Drawing.Point(1671, 328);
+            this.backButton.Location = new System.Drawing.Point(1683, 162);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(150, 50);
             this.backButton.TabIndex = 5;
@@ -91,7 +107,7 @@
             // 
             this.groupBox1.Controls.Add(this.ratioCombobox);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(1333, 78);
+            this.groupBox1.Location = new System.Drawing.Point(1319, 17);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(150, 80);
             this.groupBox1.TabIndex = 11;
@@ -99,9 +115,13 @@
             // 
             // ratioCombobox
             // 
+            this.ratioCombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ratioCombobox.FormattingEnabled = true;
             this.ratioCombobox.Items.AddRange(new object[] {
+            "1 dk = 10 sn",
+            "1 dk = 5 sn",
             "1 dk = 1 sn",
+            "5 dk = 1 sn",
             "10 dk = 1 sn",
             "30 dk = 1 sn",
             "60 dk = 1 sn",
@@ -111,7 +131,7 @@
             "300 dk = 1 sn"});
             this.ratioCombobox.Location = new System.Drawing.Point(18, 41);
             this.ratioCombobox.Name = "ratioCombobox";
-            this.ratioCombobox.Size = new System.Drawing.Size(111, 21);
+            this.ratioCombobox.Size = new System.Drawing.Size(111, 24);
             this.ratioCombobox.TabIndex = 63;
             this.ratioCombobox.SelectedIndexChanged += new System.EventHandler(this.ratioCombobox_SelectedIndexChanged);
             // 
@@ -120,11 +140,12 @@
             this.paneller.Controls.Add(this.panelValue2);
             this.paneller.Controls.Add(this.panelValue1);
             this.paneller.Controls.Add(this.panelType2);
-            this.paneller.Location = new System.Drawing.Point(1308, 417);
+            this.paneller.Location = new System.Drawing.Point(1308, 484);
             this.paneller.Name = "paneller";
             this.paneller.Size = new System.Drawing.Size(539, 445);
             this.paneller.TabIndex = 18;
             this.paneller.TabStop = false;
+            this.paneller.Enter += new System.EventHandler(this.paneller_Enter);
             // 
             // panelValue2
             // 
@@ -180,7 +201,7 @@
             this.panelTypeLabel2.AutoSize = true;
             this.panelTypeLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.panelTypeLabel2.ForeColor = System.Drawing.SystemColors.Control;
-            this.panelTypeLabel2.Location = new System.Drawing.Point(3, 16);
+            this.panelTypeLabel2.Location = new System.Drawing.Point(19, 16);
             this.panelTypeLabel2.Name = "panelTypeLabel2";
             this.panelTypeLabel2.Size = new System.Drawing.Size(94, 20);
             this.panelTypeLabel2.TabIndex = 11;
@@ -192,7 +213,7 @@
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.startButton.ForeColor = System.Drawing.Color.Black;
-            this.startButton.Location = new System.Drawing.Point(1321, 328);
+            this.startButton.Location = new System.Drawing.Point(1316, 162);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(150, 50);
             this.startButton.TabIndex = 19;
@@ -203,7 +224,7 @@
             // panelType1
             // 
             this.panelType1.Controls.Add(this.panelTypeLabel);
-            this.panelType1.Location = new System.Drawing.Point(1308, 417);
+            this.panelType1.Location = new System.Drawing.Point(1308, 484);
             this.panelType1.Name = "panelType1";
             this.panelType1.Size = new System.Drawing.Size(139, 445);
             this.panelType1.TabIndex = 19;
@@ -223,7 +244,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(1308, 456);
+            this.panel1.Location = new System.Drawing.Point(1308, 523);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(539, 2);
             this.panel1.TabIndex = 20;
@@ -233,7 +254,7 @@
             this.groupBox2.Controls.Add(this.secondLabel);
             this.groupBox2.Controls.Add(this.clock);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(1610, 78);
+            this.groupBox2.Location = new System.Drawing.Point(1598, 17);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(234, 80);
             this.groupBox2.TabIndex = 12;
@@ -244,7 +265,7 @@
             this.secondLabel.AutoSize = true;
             this.secondLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.secondLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.secondLabel.Location = new System.Drawing.Point(173, 29);
+            this.secondLabel.Location = new System.Drawing.Point(197, 30);
             this.secondLabel.Name = "secondLabel";
             this.secondLabel.Size = new System.Drawing.Size(26, 20);
             this.secondLabel.TabIndex = 10;
@@ -272,18 +293,13 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Operation Time: ";
             // 
-            // timer1
-            // 
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // resetButton
             // 
             this.resetButton.BackColor = System.Drawing.Color.Orange;
             this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.resetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.resetButton.ForeColor = System.Drawing.Color.Black;
-            this.resetButton.Location = new System.Drawing.Point(1495, 328);
+            this.resetButton.Location = new System.Drawing.Point(1494, 162);
             this.resetButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(150, 50);
@@ -297,7 +313,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1309, 239);
+            this.label1.Location = new System.Drawing.Point(1315, 109);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(334, 35);
@@ -307,22 +323,161 @@
             // 
             // existingOrderCombobox
             // 
+            this.existingOrderCombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.existingOrderCombobox.FormattingEnabled = true;
             this.existingOrderCombobox.Items.AddRange(new object[] {
             "abc sıralaması",
             "def sıralaması"});
-            this.existingOrderCombobox.Location = new System.Drawing.Point(1650, 248);
+            this.existingOrderCombobox.Location = new System.Drawing.Point(1657, 118);
             this.existingOrderCombobox.Name = "existingOrderCombobox";
-            this.existingOrderCombobox.Size = new System.Drawing.Size(178, 21);
+            this.existingOrderCombobox.Size = new System.Drawing.Size(178, 24);
             this.existingOrderCombobox.TabIndex = 66;
             this.existingOrderCombobox.SelectedIndexChanged += new System.EventHandler(this.existingOrderCombobox_SelectedIndexChanged);
+            // 
+            // finishedProducts
+            // 
+            this.finishedProducts.Controls.Add(this.finishedProductsCount);
+            this.finishedProducts.Controls.Add(this.finishedProductsCount2);
+            this.finishedProducts.Controls.Add(this.finishedPanelNames);
+            this.finishedProducts.Controls.Add(this.finishedPanelCount);
+            this.finishedProducts.Controls.Add(this.label3);
+            this.finishedProducts.Controls.Add(this.finishedPanelNames2);
+            this.finishedProducts.Controls.Add(this.panel2);
+            this.finishedProducts.Controls.Add(this.finishedProductsLabel);
+            this.finishedProducts.Location = new System.Drawing.Point(1308, 227);
+            this.finishedProducts.Name = "finishedProducts";
+            this.finishedProducts.Size = new System.Drawing.Size(539, 251);
+            this.finishedProducts.TabIndex = 71;
+            this.finishedProducts.TabStop = false;
+            // 
+            // finishedProductsCount
+            // 
+            this.finishedProductsCount.Controls.Add(this.panelCountLabel11);
+            this.finishedProductsCount.Location = new System.Drawing.Point(139, 57);
+            this.finishedProductsCount.Name = "finishedProductsCount";
+            this.finishedProductsCount.Size = new System.Drawing.Size(100, 188);
+            this.finishedProductsCount.TabIndex = 74;
+            this.finishedProductsCount.TabStop = false;
+            // 
+            // panelCountLabel11
+            // 
+            this.panelCountLabel11.AutoSize = true;
+            this.panelCountLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.panelCountLabel11.ForeColor = System.Drawing.SystemColors.Control;
+            this.panelCountLabel11.Location = new System.Drawing.Point(22, 16);
+            this.panelCountLabel11.Name = "panelCountLabel11";
+            this.panelCountLabel11.Size = new System.Drawing.Size(52, 20);
+            this.panelCountLabel11.TabIndex = 12;
+            this.panelCountLabel11.Text = "ADET";
+            // 
+            // finishedProductsCount2
+            // 
+            this.finishedProductsCount2.Controls.Add(this.panelCountLabel22);
+            this.finishedProductsCount2.Location = new System.Drawing.Point(438, 57);
+            this.finishedProductsCount2.Name = "finishedProductsCount2";
+            this.finishedProductsCount2.Size = new System.Drawing.Size(100, 188);
+            this.finishedProductsCount2.TabIndex = 73;
+            this.finishedProductsCount2.TabStop = false;
+            // 
+            // panelCountLabel22
+            // 
+            this.panelCountLabel22.AutoSize = true;
+            this.panelCountLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.panelCountLabel22.ForeColor = System.Drawing.SystemColors.Control;
+            this.panelCountLabel22.Location = new System.Drawing.Point(22, 16);
+            this.panelCountLabel22.Name = "panelCountLabel22";
+            this.panelCountLabel22.Size = new System.Drawing.Size(52, 20);
+            this.panelCountLabel22.TabIndex = 12;
+            this.panelCountLabel22.Text = "ADET";
+            // 
+            // finishedPanelNames
+            // 
+            this.finishedPanelNames.Controls.Add(this.panelTypeLabel11);
+            this.finishedPanelNames.Location = new System.Drawing.Point(1, 57);
+            this.finishedPanelNames.Name = "finishedPanelNames";
+            this.finishedPanelNames.Size = new System.Drawing.Size(139, 188);
+            this.finishedPanelNames.TabIndex = 20;
+            this.finishedPanelNames.TabStop = false;
+            // 
+            // panelTypeLabel11
+            // 
+            this.panelTypeLabel11.AutoSize = true;
+            this.panelTypeLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.panelTypeLabel11.ForeColor = System.Drawing.SystemColors.Control;
+            this.panelTypeLabel11.Location = new System.Drawing.Point(8, 16);
+            this.panelTypeLabel11.Name = "panelTypeLabel11";
+            this.panelTypeLabel11.Size = new System.Drawing.Size(94, 20);
+            this.panelTypeLabel11.TabIndex = 9;
+            this.panelTypeLabel11.Text = "PANEL TİPİ";
+            // 
+            // finishedPanelCount
+            // 
+            this.finishedPanelCount.AutoSize = true;
+            this.finishedPanelCount.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.finishedPanelCount.ForeColor = System.Drawing.Color.White;
+            this.finishedPanelCount.Location = new System.Drawing.Point(311, 12);
+            this.finishedPanelCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.finishedPanelCount.Name = "finishedPanelCount";
+            this.finishedPanelCount.Size = new System.Drawing.Size(0, 35);
+            this.finishedPanelCount.TabIndex = 71;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Sylfaen", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(136, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(173, 35);
+            this.label3.TabIndex = 68;
+            this.label3.Text = "Biten Paneller";
+            // 
+            // finishedPanelNames2
+            // 
+            this.finishedPanelNames2.Controls.Add(this.panelTypeLabel22);
+            this.finishedPanelNames2.Location = new System.Drawing.Point(300, 57);
+            this.finishedPanelNames2.Name = "finishedPanelNames2";
+            this.finishedPanelNames2.Size = new System.Drawing.Size(139, 188);
+            this.finishedPanelNames2.TabIndex = 74;
+            this.finishedPanelNames2.TabStop = false;
+            // 
+            // panelTypeLabel22
+            // 
+            this.panelTypeLabel22.AutoSize = true;
+            this.panelTypeLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.panelTypeLabel22.ForeColor = System.Drawing.SystemColors.Control;
+            this.panelTypeLabel22.Location = new System.Drawing.Point(7, 16);
+            this.panelTypeLabel22.Name = "panelTypeLabel22";
+            this.panelTypeLabel22.Size = new System.Drawing.Size(94, 20);
+            this.panelTypeLabel22.TabIndex = 11;
+            this.panelTypeLabel22.Text = "PANEL TİPİ";
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Location = new System.Drawing.Point(0, 50);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(539, 2);
+            this.panel2.TabIndex = 21;
+            // 
+            // finishedProductsLabel
+            // 
+            this.finishedProductsLabel.AutoSize = true;
+            this.finishedProductsLabel.Location = new System.Drawing.Point(250, 97);
+            this.finishedProductsLabel.Name = "finishedProductsLabel";
+            this.finishedProductsLabel.Size = new System.Drawing.Size(0, 13);
+            this.finishedProductsLabel.TabIndex = 72;
+            this.finishedProductsLabel.Visible = false;
+            this.finishedProductsLabel.Click += new System.EventHandler(this.finishedProductsLabel_Click);
             // 
             // Simulation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.ClientSize = new System.Drawing.Size(1894, 952);
+            this.ClientSize = new System.Drawing.Size(1884, 951);
+            this.Controls.Add(this.finishedProducts);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.existingOrderCombobox);
             this.Controls.Add(this.resetButton);
@@ -352,6 +507,16 @@
             this.panelType1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.finishedProducts.ResumeLayout(false);
+            this.finishedProducts.PerformLayout();
+            this.finishedProductsCount.ResumeLayout(false);
+            this.finishedProductsCount.PerformLayout();
+            this.finishedProductsCount2.ResumeLayout(false);
+            this.finishedProductsCount2.PerformLayout();
+            this.finishedPanelNames.ResumeLayout(false);
+            this.finishedPanelNames.PerformLayout();
+            this.finishedPanelNames2.ResumeLayout(false);
+            this.finishedPanelNames2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -376,11 +541,23 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label clock;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label secondLabel;
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.ComboBox ratioCombobox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox existingOrderCombobox;
+        private System.Windows.Forms.Label label3;
+        private models.DraggableGroupBox finishedProducts;
+        private System.Windows.Forms.Label finishedPanelCount;
+        private System.Windows.Forms.GroupBox finishedProductsCount2;
+        private System.Windows.Forms.Label panelCountLabel22;
+        private System.Windows.Forms.GroupBox finishedPanelNames;
+        private System.Windows.Forms.Label panelTypeLabel11;
+        private System.Windows.Forms.GroupBox finishedPanelNames2;
+        private System.Windows.Forms.Label panelTypeLabel22;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.GroupBox finishedProductsCount;
+        private System.Windows.Forms.Label finishedProductsLabel;
+        private System.Windows.Forms.Label panelCountLabel11;
     }
 }

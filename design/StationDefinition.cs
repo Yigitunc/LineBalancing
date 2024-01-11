@@ -29,7 +29,7 @@ namespace TimeCalc
         {
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             
-            stationName.Text = " ";
+            stationName.Text = "";
             stationTime.Text = "0";
             fillTheGrid();
             countStations();
@@ -69,31 +69,69 @@ namespace TimeCalc
 		private void button1_Click(object sender, EventArgs e)
 		{
             DatabaseHelper databaseHelper = new DatabaseHelper();
-            if (!(stationName.Text == "" || stationName.Text == " " || stationTime.Text == "" || stationTime.Text == " "))
-			{
-				try
-				{
-                    if (stationManCount.Text == "")
-                    {
-                        string query = $"INSERT INTO stations (station_name, station_time) VALUES ('{stationName.Text}', '{stationTime.Text}')";
-                        databaseHelper.ExecuteNonQuery(query);
-                    }
-                    else
-                    {
-                        string query = $"INSERT INTO stations (station_name, station_time, station_man_count) VALUES ('{stationName.Text}', '{stationTime.Text}', '{stationManCount.Text}')";
-                        databaseHelper.ExecuteNonQuery(query);
-                    }
 
-                    MessageBox.Show("Kayıt başarılı.");
-                    fillTheGrid();
-                }
-				catch (Exception error)
-				{
-                    MessageBox.Show("Bir hata oluştu. Hata : " + error.Message);
+            string stationTimeText = stationTime.Text.Trim();
+            string stationManCountText = stationManCount.Text.Trim();
+            bool stationExist = false;
+            int stationTimeValue;
+            int stationManCountValue;
+
+            string queryy = $"SELECT station_name FROM stations WHERE station_name = '{stationName.Text}'";
+            DataTable result = databaseHelper.ExecuteQuery(queryy);
+
+            if (result.Rows.Count > 0)
+            {
+                string productName = result.Rows[0]["station_name"].ToString();
+                if (productName.Length != 0)
+                {
+                    stationExist = true;
+                    MessageBox.Show("Aynı isimle panel kaydedemezsiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-			else MessageBox.Show("Lütfen Boşlukları Doldurun.");
-		}
+            if (stationExist == false)
+            {
+
+                if (!int.TryParse(stationTimeText, out stationTimeValue))
+                {
+                    MessageBox.Show("Geçerli bir istasyon süresi giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (!int.TryParse(stationManCountText, out stationManCountValue))
+                {
+                    MessageBox.Show("Geçerli bir istasyon personel sayısı giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+
+
+                if (!(stationName.Text == "" || stationName.Text == " " || stationTime.Text == "" || stationTime.Text == " "))
+                {
+                    try
+                    {
+                        if (stationManCount.Text == "")
+                        {
+                            string query = $"INSERT INTO stations (station_name, station_time) VALUES ('{stationName.Text}', '{stationTime.Text}')";
+                            databaseHelper.ExecuteNonQuery(query);
+                        }
+                        else
+                        {
+                            string query = $"INSERT INTO stations (station_name, station_time, station_man_count) VALUES ('{stationName.Text}', '{stationTime.Text}', '{stationManCount.Text}')";
+                            databaseHelper.ExecuteNonQuery(query);
+                        }
+
+                        MessageBox.Show("Kayıt Başarılı.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        fillTheGrid();
+                    }
+                    catch (Exception error)
+                    {
+                        MessageBox.Show("Bir hata oluştu. Hata : " + error.Message);
+                    }
+                }
+                else MessageBox.Show("Lütfen Boşlukları Doldurun.");
+            }
+         
+        }
 
         private void deleteStationButton_Click(object sender, EventArgs e)
         {
@@ -153,17 +191,15 @@ namespace TimeCalc
 
             stations.DataSource = result;
 
-            stations.Columns[0].Width = 105;
+            stations.Columns[0].Width = 103;
             stations.Columns[0].HeaderText = "İstasyon id";
             stations.DefaultCellStyle.Font = new Font("Arial", 12, FontStyle.Regular);
-            stations.Columns[1].Width = 200;
+            stations.Columns[1].Width = 198;
             stations.Columns[1].HeaderText = "İstasyon adı";
-            stations.Columns[2].Width = 130;
+            stations.Columns[2].Width = 128;
             stations.Columns[2].HeaderText = "İstasyon süresi";
-            stations.Columns[3].Width = 140;
+            stations.Columns[3].Width = 138;
             stations.Columns[3].HeaderText = "İstasyon iş gücü";
-
-
 
         }
 
@@ -181,6 +217,7 @@ namespace TimeCalc
                 {
                     stationName.Text = result.Rows[0]["station_name"].ToString();
                     stationTime.Text = result.Rows[0]["station_time"].ToString();
+                    stationIdLabel.Text = result.Rows[0]["station_id"].ToString();
 
                     if (result.Rows[0]["station_man_count"].ToString().Length != 0)
                     stationManCount.Text = result.Rows[0]["station_man_count"].ToString();
@@ -192,6 +229,53 @@ namespace TimeCalc
             {
                 MessageBox.Show("Bir hata oluştu. Hata : " + error.Message);
             }
+        }
+
+        private void updateButton_Click(object sender, EventArgs e)
+        {
+            string stationTimeText = stationTime.Text.Trim();
+            string stationManCountText = stationManCount.Text.Trim();
+
+            int stationTimeValue;
+            int stationManCountValue;
+
+            if (!int.TryParse(stationTimeText, out stationTimeValue))
+            {
+                MessageBox.Show("Geçerli bir istasyon süresi giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!int.TryParse(stationManCountText, out stationManCountValue))
+            {
+                MessageBox.Show("Geçerli bir istasyon personel sayısı giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            DatabaseHelper databaseHelper = new DatabaseHelper();
+
+            if (!(stationName.Text == "" || stationName.Text == " " || stationTime.Text == "" || stationTime.Text == " " || stationIdLabel.Text == "label1"))
+            {
+                try
+                {
+                    int stationId = int.Parse(stationIdLabel.Text);
+
+                    string query = $"UPDATE stations SET station_name = '{stationName.Text}', station_time = '{stationTime.Text}', station_man_count = '{stationManCount.Text}' WHERE station_id = '{stationId}'";
+                    databaseHelper.ExecuteNonQuery(query);
+
+                    MessageBox.Show("Güncelleme başarılı.");
+                    fillTheGrid();
+                    
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show("Bir hata oluştu. Hata: " + error.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Boşlukları Doldurun.");
+            }
+
         }
     }
 }

@@ -29,7 +29,6 @@
 		private void InitializeComponent()
 		{
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderOfManufacture));
-            this.backButton = new System.Windows.Forms.Button();
             this.productCountCombobox = new System.Windows.Forms.ComboBox();
             this.productCountLabel = new System.Windows.Forms.Label();
             this.existingOrderCombobox = new System.Windows.Forms.ComboBox();
@@ -37,27 +36,13 @@
             this.orderNameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.saveButton = new System.Windows.Forms.Button();
-            this.existingOrderCount = new System.Windows.Forms.Label();
             this.deleteOrder = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // backButton
-            // 
-            this.backButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.backButton.BackColor = System.Drawing.Color.DarkRed;
-            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.backButton.ForeColor = System.Drawing.Color.Black;
-            this.backButton.Location = new System.Drawing.Point(776, 771);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(132, 45);
-            this.backButton.TabIndex = 7;
-            this.backButton.Text = "Geri";
-            this.backButton.UseVisualStyleBackColor = false;
-            this.backButton.Click += new System.EventHandler(this.backButton_Click_1);
             // 
             // productCountCombobox
             // 
+            this.productCountCombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.productCountCombobox.FormattingEnabled = true;
             this.productCountCombobox.Items.AddRange(new object[] {
             "1",
@@ -160,9 +145,9 @@
             "98",
             "99",
             "100"});
-            this.productCountCombobox.Location = new System.Drawing.Point(165, 35);
+            this.productCountCombobox.Location = new System.Drawing.Point(462, 76);
             this.productCountCombobox.Name = "productCountCombobox";
-            this.productCountCombobox.Size = new System.Drawing.Size(178, 21);
+            this.productCountCombobox.Size = new System.Drawing.Size(100, 21);
             this.productCountCombobox.TabIndex = 62;
             this.productCountCombobox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -171,7 +156,7 @@
             this.productCountLabel.AutoSize = true;
             this.productCountLabel.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.productCountLabel.ForeColor = System.Drawing.Color.White;
-            this.productCountLabel.Location = new System.Drawing.Point(30, 31);
+            this.productCountLabel.Location = new System.Drawing.Point(342, 72);
             this.productCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.productCountLabel.Name = "productCountLabel";
             this.productCountLabel.Size = new System.Drawing.Size(116, 25);
@@ -180,8 +165,9 @@
             // 
             // existingOrderCombobox
             // 
+            this.existingOrderCombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.existingOrderCombobox.FormattingEnabled = true;
-            this.existingOrderCombobox.Location = new System.Drawing.Point(714, 35);
+            this.existingOrderCombobox.Location = new System.Drawing.Point(1014, 76);
             this.existingOrderCombobox.Name = "existingOrderCombobox";
             this.existingOrderCombobox.Size = new System.Drawing.Size(178, 21);
             this.existingOrderCombobox.TabIndex = 64;
@@ -192,7 +178,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(362, 31);
+            this.label2.Location = new System.Drawing.Point(662, 72);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(351, 25);
@@ -203,7 +189,7 @@
             // 
             this.orderNameTextBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.orderNameTextBox.Font = new System.Drawing.Font("Sylfaen", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.orderNameTextBox.Location = new System.Drawing.Point(155, 782);
+            this.orderNameTextBox.Location = new System.Drawing.Point(454, 768);
             this.orderNameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.orderNameTextBox.Multiline = true;
             this.orderNameTextBox.Name = "orderNameTextBox";
@@ -215,7 +201,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(14, 782);
+            this.label3.Location = new System.Drawing.Point(313, 768);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 25);
@@ -228,7 +214,7 @@
             this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.saveButton.ForeColor = System.Drawing.Color.Black;
-            this.saveButton.Location = new System.Drawing.Point(390, 773);
+            this.saveButton.Location = new System.Drawing.Point(699, 756);
             this.saveButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(180, 45);
@@ -237,25 +223,13 @@
             this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
-            // existingOrderCount
-            // 
-            this.existingOrderCount.AutoSize = true;
-            this.existingOrderCount.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.existingOrderCount.ForeColor = System.Drawing.Color.White;
-            this.existingOrderCount.Location = new System.Drawing.Point(856, 35);
-            this.existingOrderCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.existingOrderCount.Name = "existingOrderCount";
-            this.existingOrderCount.Size = new System.Drawing.Size(17, 25);
-            this.existingOrderCount.TabIndex = 70;
-            this.existingOrderCount.Text = ".";
-            // 
             // deleteOrder
             // 
             this.deleteOrder.BackColor = System.Drawing.Color.Brown;
             this.deleteOrder.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.deleteOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.deleteOrder.ForeColor = System.Drawing.Color.Black;
-            this.deleteOrder.Location = new System.Drawing.Point(603, 773);
+            this.deleteOrder.Location = new System.Drawing.Point(914, 756);
             this.deleteOrder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.deleteOrder.Name = "deleteOrder";
             this.deleteOrder.Size = new System.Drawing.Size(132, 45);
@@ -264,12 +238,28 @@
             this.deleteOrder.UseVisualStyleBackColor = false;
             this.deleteOrder.Click += new System.EventHandler(this.deleteOrder_Click);
             // 
+            // backButton
+            // 
+            this.backButton.BackColor = System.Drawing.Color.DarkRed;
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.backButton.ForeColor = System.Drawing.Color.Black;
+            this.backButton.Location = new System.Drawing.Point(1077, 756);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(132, 45);
+            this.backButton.TabIndex = 72;
+            this.backButton.Text = "Geri";
+            this.backButton.UseVisualStyleBackColor = false;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // OrderOfManufacture
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.ClientSize = new System.Drawing.Size(920, 828);
+            this.ClientSize = new System.Drawing.Size(1620, 876);
+            this.ControlBox = false;
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.deleteOrder);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.label3);
@@ -278,12 +268,10 @@
             this.Controls.Add(this.existingOrderCombobox);
             this.Controls.Add(this.productCountCombobox);
             this.Controls.Add(this.productCountLabel);
-            this.Controls.Add(this.backButton);
-            this.Controls.Add(this.existingOrderCount);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
             this.Name = "OrderOfManufacture";
-            this.Text = "İmalat Sıralaması";
             this.Load += new System.EventHandler(this.OrderOfManufacture_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -291,8 +279,6 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.ComboBox productCountCombobox;
         private System.Windows.Forms.Label productCountLabel;
         private System.Windows.Forms.ComboBox existingOrderCombobox;
@@ -300,7 +286,7 @@
         private System.Windows.Forms.TextBox orderNameTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.Label existingOrderCount;
         private System.Windows.Forms.Button deleteOrder;
+        private System.Windows.Forms.Button backButton;
     }
 }

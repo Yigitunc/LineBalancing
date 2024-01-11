@@ -59,55 +59,5 @@ namespace HatDengelemeProject.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2016_mazda6_1_1920x1080 {
-            get {
-                object obj = ResourceManager.GetObject("2016_mazda6_1_1920x1080", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grafik_403529 {
-            get {
-                object obj = ResourceManager.GetObject("grafik-403529", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pie_chart {
-            get {
-                object obj = ResourceManager.GetObject("pie-chart", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap PNGPIX_COM_Pie_Chart_PNG_Transparent_Image {
-            get {
-                object obj = ResourceManager.GetObject("PNGPIX-COM-Pie-Chart-PNG-Transparent-Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pngresmi {
-            get {
-                object obj = ResourceManager.GetObject("pngresmi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
