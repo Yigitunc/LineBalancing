@@ -11,7 +11,7 @@ namespace HatDengelemeProject.operations
 {
     public class DatabaseHelper
     {
-        private string connectionString = "Server=95.0.151.218;Port=3306;Database=line_balancing;Uid=produser;Pwd=eO8!ym*9SY;";
+        private string connectionString = "Server=********;Port=******;Database=*******;Uid=*****;Pwd=******;";
 
         public DataTable ExecuteQuery(string query)
         {
